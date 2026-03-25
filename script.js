@@ -1,4 +1,4 @@
-//RETO 1 – Semáforo Inteligente
+//Semáforo Inteligente
 document.getElementById("btn-semaforo").onclick = () => {
   let color = document.getElementById("color").value;
 
@@ -18,7 +18,7 @@ document.getElementById("btn-semaforo").onclick = () => {
 };
 
 
-//RETO 2 – Clasificador de Frutas
+//Clasificador de Frutas
 document.getElementById("btn-fruta").onclick = () => {
   let fruta = document.getElementById("fruta").value;
 
@@ -38,7 +38,7 @@ document.getElementById("btn-fruta").onclick = () => {
 };
 
 
-// RETO 3 – Traductor de Números
+// Traductor de Números
 document.getElementById("btn-numero").onclick = () => {
   let numero = document.getElementById("numero").value;
 
@@ -58,7 +58,7 @@ document.getElementById("btn-numero").onclick = () => {
 };
 
 
-//RETO 4 – Calificador de Exámenes
+//Calificador de Exámenes
 document.getElementById("btn-nota").onclick = () => {
   let nota = document.getElementById("nota").value;
 
@@ -78,7 +78,7 @@ document.getElementById("btn-nota").onclick = () => {
 };
 
 
-//RETO 5 – Saludo según el Idioma
+//Saludo según el Idioma
 document.getElementById("btn-idioma").onclick = () => {
   let idioma = document.getElementById("idioma").value;
 
