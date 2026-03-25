@@ -1,5 +1,5 @@
-// RETO 1 – Semáforo Inteligente
-function verificar() {
+//RETO 1 – Semáforo Inteligente
+document.getElementById("btn-semaforo").onclick = () => {
   let color = document.getElementById("color").value;
 
   switch (color) {
@@ -13,12 +13,13 @@ function verificar() {
       document.getElementById("resultado-semaforo").textContent = "¡Cuidado!";
       break;
     default:
-      document.getElementById("resultado-semaforo").textContent = "Color no válido";
+      document.getElementById("resultado-semaforo").textContent = "Elige un color";
   }
-}
+};
 
-// RETO 2 – Clasificador de Frutas
-function clasificar() {
+
+//RETO 2 – Clasificador de Frutas
+document.getElementById("btn-fruta").onclick = () => {
   let fruta = document.getElementById("fruta").value;
 
   switch (fruta) {
@@ -34,29 +35,31 @@ function clasificar() {
     default:
       document.getElementById("resultado-fruta").textContent = "Fruta no reconocida";
   }
-}
+};
+
 
 // RETO 3 – Traductor de Números
-function traducir() {
-  let numero = Number(document.getElementById("numero").value);
+document.getElementById("btn-numero").onclick = () => {
+  let numero = document.getElementById("numero").value;
 
   switch (numero) {
-    case 1:
+    case "1":
       document.getElementById("resultado-numero").textContent = "Uno";
       break;
-    case 2:
+    case "2":
       document.getElementById("resultado-numero").textContent = "Dos";
       break;
-    case 3:
+    case "3":
       document.getElementById("resultado-numero").textContent = "Tres";
       break;
     default:
-      document.getElementById("resultado-numero").textContent = "Número fuera de rango";
+      document.getElementById("resultado-numero").textContent = "Elige un número";
   }
-}
+};
 
-// RETO 4 – Calificador de Exámenes
-function calificar() {
+
+//RETO 4 – Calificador de Exámenes
+document.getElementById("btn-nota").onclick = () => {
   let nota = document.getElementById("nota").value;
 
   switch (nota) {
@@ -70,12 +73,13 @@ function calificar() {
       document.getElementById("resultado-nota").textContent = "Puedes mejorar";
       break;
     default:
-      document.getElementById("resultado-nota").textContent = "Nota no reconocida";
+      document.getElementById("resultado-nota").textContent = "Elige una nota";
   }
-}
+};
 
-// RETO 5 – Saludo según el Idioma
-function saludar() {
+
+//RETO 5 – Saludo según el Idioma
+document.getElementById("btn-idioma").onclick = () => {
   let idioma = document.getElementById("idioma").value;
 
   switch (idioma) {
@@ -89,6 +93,6 @@ function saludar() {
       document.getElementById("resultado-idioma").textContent = "Salut!";
       break;
     default:
-      document.getElementById("resultado-idioma").textContent = "Idioma no reconocido";
+      document.getElementById("resultado-idioma").textContent = "Elige un idioma";
   }
-}
+};
